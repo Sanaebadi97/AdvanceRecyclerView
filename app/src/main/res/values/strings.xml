@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Advance RecyclerView</string>
+    <string name="follow">Follow</string>
+    <string name="username">Username</string>
+    <string name="job">Job</string>
+    <string name="network_error">Internet connection error, Swipe down to refresh</string>
+    <string name="try_again">Try again</string>
+</resources>
