@@ -171,6 +171,9 @@ class AdvanceRecyclerView @JvmOverloads constructor(
     fun setEnableRefreshing(isEnable: Boolean) {
         // must be edit
         moduleView.srl_advance_recycler_view_lib.isEnabled = isEnable
+        if (!isEnable){
+            moduleView.srl_advance_recycler_view_lib.setDistanceToTriggerSync(999999)
+        }
     }
 
     /*
