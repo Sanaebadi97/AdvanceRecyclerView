@@ -1,5 +1,11 @@
  ![developing language](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/kotlin.png "language icon") 
 ## AdvanceRecyclerView
+
+
+ ### Video Demo
+![video demo](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.gif "Video Demo")
+
+
  
  ### Options
   + Swipe Refresh
@@ -10,11 +16,9 @@
   + Swipe to Dismiss
 
 
- ### Video Demo
-![video demo](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.gif "Video Demo")
 
-### APK Demo
-[Download](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.apk)
+
+
 
 ### Quick Setup
 
@@ -263,7 +267,8 @@ class MainActivity : Activity(), SwipeToDismiss.SwipetoDismissCallBack {
 
 
 
-
+### APK Demo
+[Download](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.apk)
 
 
 
