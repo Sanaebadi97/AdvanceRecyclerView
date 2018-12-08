@@ -1,6 +1,6 @@
  ## AdvanceRecyclerView
  
- ### Options:
+ ### Options
   + Swipe Refresh
   + Content Refresh
   + Content Message
@@ -64,6 +64,11 @@ So, for cancel Swipe Refresh call cancelRefreshing Method
 rv_advance_list.cancelRefreshing()
 
 ```
+
+and for disable swipe refresh use
+```kotlin
+ rv_advance_list.setEnableRefreshing(false)
+````
 
 ## Content Refreshing
 
