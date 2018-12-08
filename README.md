@@ -8,7 +8,7 @@
 ![video demo](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.gif "Video Demo")
 
 
---
+---
  
  ### Options
   + Swipe Refresh
@@ -86,16 +86,21 @@ and for disable swipe refresh use
  rv_advance_list.setEnableRefreshing(false)
 ````
 
+---
+
+
 ## Content Refreshing
 
-well, for show content progressBar call showContentLoading
+well, for show content ```progressBar``` call showContentLoading
 ```kotlin
    rv_advance_list.showContentLoading()
 ```
-and afetr content loaded show list by call showList Method
+and afetr content loaded show list by call ```showList``` Method
 ```kotlin
    rv_advance_list.showList()
 ```
+
+---
 
 ## Content Message
 
@@ -103,6 +108,10 @@ SomeTimes we want show message like network error Or empty result message, you u
 ```kotlin
   rv_advance_list.showContentMessage(resources.getString(R.string.network_error), R.drawable.ic_wifi_grey_600_48dp)
 ```
+
+---
+
+
 ## Endless List
 
 for use Infinit List mode first add end page listener for detect page scroll end
@@ -137,12 +146,14 @@ class MainActivity : Activity(), OnScrollEndListener {
 
 ```
 
+---
+
 ## Footer Loading
 
 well, When list scroll end showing footer loading is awesome
-so, for use this option your adapter must be extends AdvanceRecyclerViewAdapter
+so, for use this option your adapter must be extends ```AdvanceRecyclerViewAdapter```
 
-Example:
+__Example:__
 
 ```kotlin
 
@@ -175,9 +186,12 @@ class UsersAdapter(context: Context) : AdvanceRecyclerViewAdapter<UserModel, Use
 
 ````
 
-for show footer loading first create loading layout xml here is sample
+---
 
-footer_loadin.xml
+for show footer loading first create loading ```layout.xml``` here is sample
+
+__footer_loadin.xml__
+
 ```xml
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -197,8 +211,9 @@ footer_loadin.xml
 </LinearLayout>
 
 ```
+---
 
-Ok Next, in Activity define layout as footer loading view
+Ok Next, in ```Activity``` define layout as footer loading view
 ```kotlin
 class MainActivity : Activity(), OnScrollEndListener {
 
@@ -237,6 +252,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ```
 
+---
+
 ## Swipe To Dismiss
 
 For Example, you wand delete use via Swipe lisy item to sides lets go do it
@@ -269,7 +286,7 @@ class MainActivity : Activity(), SwipeToDismiss.SwipetoDismissCallBack {
 ```
 
 
-
+---
 
 
 ### APK Demo
