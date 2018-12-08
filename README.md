@@ -2,14 +2,13 @@
 ## AdvanceRecyclerView
 
 
-![developing language](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/kotlin.png "language icon") 
-
 
 
  ### Video Demo
 ![video demo](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.gif "Video Demo")
 
 
+--
  
  ### Options
   + Swipe Refresh
@@ -21,12 +20,12 @@
 
 
 
-
+---
 
 
 ### Quick Setup
 
-add list in layout
+***add list in layout***
 
 ```xml
 
@@ -37,7 +36,7 @@ add list in layout
 
 ```
 
-in Activity
+***in Activity***
 
 ```kotlin
 
@@ -48,9 +47,11 @@ in Activity
 
 ```
 
+---
+
 ### Swipe Refresh
 
-When list pull down showing Swipe Refresh and you can call API in onRefresh listener
+When list pull down showing Swipe Refresh and you can call API in ```onRefresh listener```
 
 ```kotlin
 
@@ -74,7 +75,7 @@ class MainActivity : Activity(), OnRefreshListener{
 
 ```
 
-So, for cancel Swipe Refresh call cancelRefreshing Method
+So, for cancel Swipe Refresh call ```cancelRefreshing``` Method
 ```kotlin
 rv_advance_list.cancelRefreshing()
 
