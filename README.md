@@ -9,6 +9,12 @@
   + Swipe to Dismiss
 
 
+ ### Video Demo
+![video demo](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.gif "Video Demo")
+
+### APK Demo
+[Download](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.apk)
+
 ### Quick Setup
 
 add list in layout
