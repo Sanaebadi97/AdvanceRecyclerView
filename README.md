@@ -1,5 +1,9 @@
- ![developing language](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/kotlin.png "language icon") 
+ 
 ## AdvanceRecyclerView
+
+
+![developing language](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/kotlin.png "language icon") 
+
 
 
  ### Video Demo
