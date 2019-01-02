@@ -4,7 +4,7 @@
 
 
 
- ### Video Demo
+ ### __Video Demo__
 ![video demo](https://github.com/RezaMasoudi/AdvanceRecyclerView/raw/master/demo.gif "Video Demo")
 
 
